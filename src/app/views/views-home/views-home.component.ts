@@ -11,4 +11,17 @@ export class ViewsHomeComponent {
     { value: 900, label: 'Revenue' },
     { value: 50, label: 'Reviews' },
   ];
+
+  items: any = [
+    {
+      image: '/assets/images/couch.jpeg',
+      title: 'Couch',
+      description: 'This is a fantastic couch to sit on',
+    },
+    {
+      image: '/assets/images/dresser.jpeg',
+      title: 'Dresser',
+      description: 'This is a great dresser',
+    },
+  ];
 }
